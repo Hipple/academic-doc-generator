@@ -1,7 +1,6 @@
-# Academic Doc Generator (学术文档生成器)
+# SheerID Doc Generator (身份验证文档生成器)
 
-**Repository Name Suggestion**: `academic-doc-generator`  
-**Description**: A React-based tool for generating and exporting realistic academic document templates (Tuition Statement, Transcript, Schedule) for UI testing, verification flow development, and educational purposes.
+**Description**: 基于 React 构建的身份验证文档生成工具，支持学生和教师/职工文档模板，用于 UI 测试、验证流程开发和教育用途。
 
 **🔗 Live Demo**: [https://acagen.suck-dick.tech/](https://acagen.suck-dick.tech/)
 
@@ -25,14 +24,21 @@
 
 ## 📖 简介 (Introduction)
 
-这是一个基于 **React** + **Vite** + **HeroUI** 构建的现代化 Web 应用，用于快速生成标准的学术文档模板。
+这是一个基于 **React** + **Vite** + **HeroUI** 构建的现代化 Web 应用，用于快速生成身份验证文档模板。
 
-目前支持生成的文档包括：
+### 学生文档 (Student Documents)
 1.  **学费单 (Tuition Statement)**
 2.  **成绩单 (Transcript)**
 3.  **课程表 (Schedule)**
 4.  **录取通知书 (Admission Letter)**
 5.  **在读证明 (Enrollment Certificate)**
+6.  **学生证 (Student ID Card)** - 正反面
+
+### 教师/职工文档 (Teacher/Employee Documents)
+7.  **雇佣信 (Employment Letter)**
+8.  **工资单 (Salary Statement)**
+9.  **教师证 (Teacher ID Card)** - 正反面
+10. **教师资格证 (Teaching Certificate)**
 
 支持一键随机生成仿真数据，自定义学校图标，并提供多种导出格式（单图拼接、ZIP打包）。
 

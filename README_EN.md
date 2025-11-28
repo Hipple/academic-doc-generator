@@ -1,19 +1,26 @@
-# Academic Doc Generator
+# SheerID Doc Generator
 
-**Description**: A React-based tool for generating and exporting realistic academic document templates (Tuition Statement, Transcript, Schedule) for UI testing, verification flow development, and educational purposes.
+**Description**: A React-based identity verification document generator supporting student and teacher/employee document templates for UI testing, verification flow development, and educational purposes.
 
 **🔗 Live Demo**: [https://acagen.suck-dick.tech/](https://acagen.suck-dick.tech/)
 
 ## 📖 Introduction
 
-This is a modern web application built with **React** + **Vite** + **HeroUI** for rapidly generating standardized academic document templates.
+This is a modern web application built with **React** + **Vite** + **HeroUI** for rapidly generating identity verification document templates.
 
-Currently supported documents:
+### Student Documents
 1.  **Tuition Statement**
 2.  **Transcript**
 3.  **Schedule**
 4.  **Admission Letter**
 5.  **Enrollment Certificate**
+6.  **Student ID Card** - Front & Back
+
+### Teacher/Employee Documents
+7.  **Employment Letter**
+8.  **Salary Statement**
+9.  **Teacher ID Card** - Front & Back
+10. **Teaching Certificate**
 
 Supports one-click random data generation, custom university logos, and multiple export formats (Stitched Image, ZIP Archive).
 
